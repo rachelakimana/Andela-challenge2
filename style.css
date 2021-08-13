@@ -6,6 +6,9 @@
     font-family: libre frankinn;
     src:url(/static/LibreFranklin-Light.ttf)
 }
+my-header {
+    text-align: center;
+}
 
 .logo{
     font-weight: 600;
@@ -16,8 +19,6 @@
 }
 body{
     text-align: center;
-    /* display:grid; */
-    
 }
 
 span {
@@ -29,7 +30,7 @@ span {
     font-family:libre frankinn;
     font-weight: 300;
     font-size: 30px;
-    color: hsl(0, 0%, 59%);
+
     
 }
 .subscribe{
@@ -102,6 +103,7 @@ i {
        padding-top:10px;
    }
    .my-footer{
+       text-align: center;
        padding-top:0px;
    }
    .right {
