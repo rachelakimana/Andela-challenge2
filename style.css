@@ -3,26 +3,32 @@
     src:url(/static/LibreFranklin-Bold.ttf)
 }
 
-my-header {
+.my-header {
     text-align: center;
 }
 
 .logo{
     font-weight: 600;
 }
+.my-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    
+}
 .dashboard {
+    
     height:80%;
     width:40%;
-    margin-top: 20px;
 }
 body{
-    text-align: center;
+    
     Font-size: 20px;
 }
 
 span {
     font-family:Libre frankin;
-    color:black;
+    color: hsl(209, 33%, 12%);
 
 }
 
@@ -33,10 +39,13 @@ span {
     color: hsl(0, 0%, 59%);
     margin-top: none;   
 }
-
+.description{
+    height:2%;
+    width: 100%;
+}
 .subscribe{
-    margin-bottom:30px;
    font-size: 15px;
+   text-align: center;
 }
 
 .email{
@@ -63,8 +72,15 @@ span {
     color: white;
     text-align: center;
     margin-left: 10px;
+   
 
 }
+ .submit:hover{
+    cursor: pointer;
+    padding: 10px;
+    box-shadow: 2px 3px 2px hsl(223, 87%, 63%);
+  background-color: hsl(223, 100%, 88%);
+} 
 .my-fontawesome {
     width:wh;
     height: 50px;
@@ -74,8 +90,8 @@ span {
     justify-content: center;  
 }
 #facebook {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     display:flex;
     justify-content:center;
@@ -84,10 +100,11 @@ span {
     border: solid 0.5px;
     border-color: hsl(223, 100%, 88%)
     
+    
 }
 #twitter {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     display:flex;
     justify-content:center;
@@ -97,8 +114,8 @@ span {
     border-color: hsl(223, 100%, 88%)
 }
 #instagram {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     display:flex;
     justify-content:center;
@@ -116,18 +133,20 @@ i {
     
 }
 i:hover {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     display:flex;
     justify-content:center;
     align-items: center;
     background-color:hsl(223, 87%, 63%);
     color:white;
+    cursor:pointer;
    
 }
 
 .right {
+    text-align:center;
     color:hsl(0, 0%, 59%);
     font-size: 14px;
 
@@ -136,32 +155,54 @@ i:hover {
     color:hsl(0, 0%, 59%); 
     
  }
-  form {
+ .diviniput {
+    display:flex;
+    align-items: center;
+    justify-content: center;  
+ }
+ .container-formdiv {
+     text-align:start;
+ }
+  .formdiv {
       display: flex;
-      justify-content: center;
-      align-items:center;
+      flex-direction: column;
+       
+  }
+  .myform {
+    
+      display: flex;
+      flex-direction: row;
+      
+  }
+  .mymessage {
+      font-size: 11px;
+      color: hsl(354, 100%, 66%);
+      padding-left: 10px;
+  }
+  .p-message {
+      text-align: center;
   }
   @media screen and (max-width: 375px) {
-   form {
+   .formdivform {
        display: flex;
        flex-direction: column;
    }
    .email {
-    padding: 10px 20px;
-    width: 10%;
-    height: 10%;
-    width: 56%;
+    height: 30px;
+    width: 300px;
    }
    .submit {
-    height: 10%;
-    width: 70%;
-    margin-top: 10px;
-    padding: 10px 20px;
+    height: 30px;
+    width: 300px;
+   }
+   .myform {
+       display: flex;
+       flex-direction: column;
    }
    .dashboard {
-       padding-top: 20px;
-    height:200%;
-    width:100%;
+       padding-top: 5px;
+    height: 500%;
+    width:120%;
    }
    .logo {
        padding-top:10px;

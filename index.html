@@ -15,20 +15,29 @@
     </header>
     <body>
         <section class="description"></section>
-            
             <p class="subscribe">subscribe and get notified</p>
         </section>
+        <div class="diviniput">
+        <form class="myform">
         
-        <form onsubmit=" return FormValidate()" >
+        <div class="formdiv">
+            <div class="container-formdiv">
             <input type="email" class="email" name="email" placeholder="your email address...">
-            <button type="submit" class="submit" >Notify Me!</button>
+            <p class="mymessage"></p>
+            
+        </div>
+    </div>
+        <div class="p-message">
+            <button type="submit" class="submit" onmouseover="validateForm(this)" onmouseout="hideParagraph(this)">Notify Me!</button>      
+        </div>
         </form>
+    </div>
         
         <figure class="my-img">
             <img class="dashboard" src="./images/illustration-dashboard.png">
         </figure>
         
-        <script src="" async defer></script>
+        <script src="main.js"></script>
     </body>
     <footer class="my-footer">
     <div class="my-fontawesome">
