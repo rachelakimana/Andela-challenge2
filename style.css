@@ -2,10 +2,7 @@
     font-family: libre frankin;
     src:url(/static/LibreFranklin-Bold.ttf)
 }
-@font-face {
-    font-family: libre frankinn;
-    src:url(/static/LibreFranklin-Light.ttf)
-}
+
 my-header {
     text-align: center;
 }
@@ -14,59 +11,126 @@ my-header {
     font-weight: 600;
 }
 .dashboard {
-    height:100%;
-    width:50%;
+    height:80%;
+    width:40%;
+    margin-top: 20px;
 }
 body{
     text-align: center;
+    Font-size: 20px;
 }
 
 span {
     font-family:Libre frankin;
+    color:black;
 
 }
 
 .launching{
-    font-family:libre frankinn;
+    
     font-weight: 300;
     font-size: 30px;
-
-    
+    color: hsl(0, 0%, 59%);
+    margin-top: none;   
 }
+
 .subscribe{
-    font-family:libre frankinn;
-    font-size: 15px;
+    margin-bottom:30px;
+   font-size: 15px;
 }
 
 .email{
-    height: 20%;
-    width: 20%;
+    height: 30px;
+    width: 300px;
     font-size: 15px;
-    padding: 15px 20px;
-    border-radius: 50px ;
-    border-color: hsl(223, 100%, 88%);
+    border-width: thin;
+    border-radius: 17px;
+    border: solid 1px;
+    border-color: hsl(0, 0%, 59%);
+    padding-left: 14px
+    
 }
+::placeholder {
+    color:hsl(0, 0%, 59%);
+  }
 .submit{
-    border: 1px;
+    border: none;
     background-color:hsl(223, 87%, 63%);
-    padding: 10px;
-    height: 10%;
-    width: 10%;
+    height: 34px;
+    width: 110px;
     font-size: 15px;
     border-radius: 50px;
     color: white;
     text-align: center;
     margin-left: 10px;
+
+}
+.my-fontawesome {
+    width:wh;
+    height: 50px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;  
+}
+#facebook {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background-color:white;
+    border: solid 0.5px;
+    border-color: hsl(223, 100%, 88%)
+    
+}
+#twitter {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin-left: 10px;
+    border: solid 0.5px;
+    border-color: hsl(223, 100%, 88%)
+}
+#instagram {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin-left: 10px;
+    border: solid 0.5px;
+    border-color: hsl(223, 100%, 88%)
+    
 }
 
 i {
-    color:hsl(223, 87%, 63%);
-    padding: 10px;
     
+    color:hsl(223, 87%, 63%);
+   
+    
+}
+i:hover {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background-color:hsl(223, 87%, 63%);
+    color:white;
+   
 }
 
 .right {
     color:hsl(0, 0%, 59%);
+    font-size: 14px;
+
 }
  p i {
     color:hsl(0, 0%, 59%); 
