@@ -18,17 +18,17 @@
             <p class="subscribe">subscribe and get notified</p>
         </section>
         <div class="diviniput">
-        <form class="myform">
+        <form class="myform" name="form1" action="#">
         
         <div class="formdiv">
             <div class="container-formdiv">
-            <input type="email" class="email" name="email" placeholder="your email address...">
-            <p class="mymessage"></p>
+            <input type="email" id="email" name="text1" placeholder="your email address...">
+            <p id="mymessage"></p>
             
         </div>
     </div>
         <div class="p-message">
-            <button type="submit" class="submit" onmouseover="validateForm(this)" onmouseout="hideParagraph(this)">Notify Me!</button>      
+            <button type="submit" class="submit" onclick="ValidateEmail(document.form1.text1)">Notify Me!</button>      
         </div>
         </form>
     </div>
